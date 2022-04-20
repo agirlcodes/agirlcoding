@@ -1,11 +1,7 @@
 //MODAL
-var modal = document.getElementsByClassName("modal");
-var span = document.getElementsByClassName("close")[0];
-
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
+// var modal = document.getElementById("myModal");
+var span = document.getElementsByClassName("close");
+// console.log(span)
 let WebBtn = document.getElementById('WebBtn')
 WebBtn.onclick = function(){
     var modal = document.getElementById("webModal");
@@ -17,7 +13,6 @@ WebBtn.onclick = function(){
         modal.style.display = "none";
       }
     }
-    console.log("i am working")
     modal.style.display = "block";
   }
 let GraphBtn = document.getElementById('GraphBtn')
@@ -25,13 +20,13 @@ GraphBtn.onclick = function(){
     var modal = document.getElementById("graphicModal");
     span.onclick = function() {
       modal.style.display = "none";
+      console.log("i am working")
     }
     window.onclick = function(event) {
       if (event.target == modal) {
         modal.style.display = "none";
       }
     }
-    console.log("i am working")
     modal.style.display = "block";
   }
 let UXBtn = document.getElementById('UXBtn')
@@ -39,13 +34,13 @@ UXBtn.onclick = function(){
     var modal = document.getElementById("uxModal");
     span.onclick = function() {
       modal.style.display = "none";
+      console.log("i am working")
     }
     window.onclick = function(event) {
       if (event.target == modal) {
         modal.style.display = "none";
       }
     }
-    console.log("i am working")
     modal.style.display = "block";
   }
 let ArtBtn = document.getElementById('ArtBtn')
@@ -53,13 +48,13 @@ ArtBtn.onclick = function(){
     var modal = document.getElementById("artModal");
     span.onclick = function() {
       modal.style.display = "none";
+      console.log("i am working")
     }
     window.onclick = function(event) {
       if (event.target == modal) {
         modal.style.display = "none";
       }
     }
-    console.log("i am working")
     modal.style.display = "block";
   }
 

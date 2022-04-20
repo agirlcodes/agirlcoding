@@ -1,328 +1,6 @@
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   margin: 0%;
   font-family: 'Montserrat';
-}
-
-nav {
-  position: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  background-color: white;
-  padding: 1%;
-  width: 100%;
-}
-
-nav h1 {
-  font-family: 'Shrikhand', cursive;
-  letter-spacing: 2px;
-  margin: 0%;
-  font-size: 25px;
-}
-
-nav .mainNav a {
-  padding-left: 20px;
-  text-decoration: none;
-  color: black;
-  font-size: 18px;
-}
-
-nav .mainNav a:hover {
-  font-size: 15px;
-  color: #0c42d8;
-}
-
-h2 {
-  letter-spacing: 3px;
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: 2%;
-}
-
-#mainLogo {
-  margin-bottom: 2%;
-  margin-top: 5%;
-  height: auto;
-  margin-left: 5%;
-  margin-right: auto;
-  width: 45%;
-  border: 10px solid white;
-  background-color: #000d30;
-}
-
-main .aboutLayout {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-main .aboutMe {
-  background-color: white;
-  margin-top: 10%;
-  margin-right: 10%;
-  padding: 2%;
-  width: 70%;
-  height: 40%;
-}
-
-main #skills {
-  background-color: #000000ee;
-  padding: 3%;
-  color: white;
-}
-
-main #skills h2 {
-  margin: 0%;
-}
-
-main #skills #skillSet {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 1%;
-}
-
-main #skills #skillSet ul {
-  width: 350px;
-  list-style-type: none;
-  letter-spacing: 1px;
-}
-
-main #skills #skillSet ul h3 {
-  -webkit-text-decoration-line: dotted;
-          text-decoration-line: dotted;
-  margin-bottom: 3%;
-}
-
-main #skills #skillSet ul li {
-  padding-left: 1%;
-  margin-bottom: 3%;
-}
-
-main #services {
-  padding: 2%;
-  height: auto;
-  margin-top: 3%;
-  margin-bottom: 10%;
-}
-
-main #services .modalLayout {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-left: 10%;
-  margin-right: 10%;
-  gap: 60px 40px;
-}
-
-main #services .modalLayout img {
-  height: 100px;
-  margin-bottom: 3%;
-}
-
-main #services .modalLayout .modal-button {
-  background-color: white;
-  height: 200px;
-  width: 350px;
-  border: 5px solid #020202;
-  -webkit-box-shadow: 9px 9px 5px 0px rgba(29, 29, 29, 0.377);
-          box-shadow: 9px 9px 5px 0px rgba(29, 29, 29, 0.377);
-}
-
-main #services .modalLayout .modal-button h3 {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  letter-spacing: 2px;
-}
-
-main #services .modalLayout .modal-button:hover {
-  cursor: pointer;
-}
-
-main #services #webModal section {
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-main #services #graphicModal img {
-  padding-bottom: 2%;
-  margin-left: 5%;
-  height: auto;
-  max-height: 300px;
-}
-
-main #services #graphicModal .layout .container section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-main #services #graphicModal .layout .container section #agirlcoding, main #services #graphicModal .layout .container section #bubble, main #services #graphicModal .layout .container section #riff, main #services #graphicModal .layout .container section #jojo, main #services #graphicModal .layout .container section #redGirl, main #services #graphicModal .layout .container section #media, main #services #graphicModal .layout .container section #logo, main #services #graphicModal .layout .container section #noodles {
-  width: 400px;
-  padding: 1%;
-}
-
-main #services #graphicModal .layout .container section #bubble {
-  height: 30%;
-}
-
-main #services #graphicModal .layout .container section #bubble #bubbleImg {
-  margin: 0%;
-  width: 150px;
-}
-
-main #services #graphicModal .layout .container section #riff img {
-  margin: 0%;
-  width: 500px;
-  margin-left: -10%;
-  margin-top: -15%;
-}
-
-main #services #graphicModal .layout .container section #jojo #jojoImg {
-  height: 1000px;
-  margin: 0%;
-}
-
-main #services #graphicModal .layout .container section #media #mediaImg {
-  width: auto;
-  height: 600px;
-  margin: 0%;
-}
-
-main #services #graphicModal .layout .container section #logo #logoImg {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  height: 200px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-main #services #graphicModal .layout .container section #logo #logoImg #dorado {
-  padding: 0%;
-  margin: 0%;
-  width: 250px;
-  height: 700px;
-}
-
-main #services #graphicModal .layout .container section #logo #logoImg #moderno {
-  width: 300px;
-  padding: 0%;
-  margin: 0%;
-  height: 250px;
-}
-
-main #services #graphicModal .layout .container section #noodles img {
-  width: 200px;
-}
-
-main #services #uxModal section {
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-main #services #uxModal section .demo {
-  margin-top: 20%;
-  text-decoration: none;
-}
-
-main #services #artModal article {
-  margin-bottom: 5%;
-}
-
-footer {
-  background-color: #000000ee;
-  color: white;
-  padding: 2%;
-}
-
-footer #socialLayout {
-  padding: 1%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-footer #socialLayout img {
-  height: 70px;
-}
-
-footer #socialLayout h3 {
-  text-align: center;
-  font-size: 13px;
-}
-
-footer section {
-  text-align: center;
-}
-
-footer section a {
-  text-decoration: none;
-  letter-spacing: 1px;
-  color: white;
-  font-weight: lighter;
-}
-
-footer section a:visited {
-  color: white;
-}
-
-footer section a:hover {
-  font-size: 15px;
-  color: #0c42d8;
-}
-
-footer p {
-  text-align: center;
 }
 
 .modal {
@@ -378,5 +56,591 @@ footer p {
 
 .modal .modal-content .link:hover {
   background-color: #77d4ff;
+}
+
+@media only screen and (min-width: 600px) {
+  html {
+    scroll-padding-top: 100px;
+    scroll-behavior: smooth;
+  }
+  nav {
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    background-color: white;
+    padding: 1%;
+    width: 100%;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+  }
+  nav h1 {
+    font-family: 'Shrikhand', cursive;
+    letter-spacing: 2px;
+    margin: 0%;
+    font-size: 25px;
+  }
+  nav .mainNav a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+  nav .mainNav a:hover {
+    font-size: 15px;
+    color: #0c42d8;
+  }
+  h2 {
+    letter-spacing: 3px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+  #mainLogo {
+    margin-bottom: 2%;
+    margin-top: 5%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 45%;
+    border: 10px solid white;
+    background-color: #000d30;
+  }
+  main .aboutLayout {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main .aboutMe {
+    background-color: white;
+    margin-top: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    width: 70%;
+    height: 40%;
+  }
+  main #skills {
+    background-color: #000000ee;
+    padding: 3%;
+    color: white;
+  }
+  main #skills h2 {
+    margin: 0%;
+  }
+  main #skills #skillSet {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 1%;
+  }
+  main #skills #skillSet ul {
+    width: 350px;
+    list-style-type: none;
+    letter-spacing: 1px;
+  }
+  main #skills #skillSet ul h3 {
+    -webkit-text-decoration-line: dotted;
+            text-decoration-line: dotted;
+    margin-bottom: 3%;
+  }
+  main #skills #skillSet ul li {
+    padding-left: 1%;
+    margin-bottom: 3%;
+  }
+  main #services {
+    padding: 2%;
+    height: auto;
+    margin-top: 3%;
+    margin-bottom: 10%;
+  }
+  main #services .modalLayout {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 60px 40px;
+  }
+  main #services .modalLayout img {
+    height: 100px;
+    margin-bottom: 3%;
+  }
+  main #services .modalLayout .modal-button {
+    background-color: white;
+    height: 200px;
+    width: 350px;
+    border: 5px solid #020202;
+    -webkit-box-shadow: 9px 9px 5px 0px rgba(29, 29, 29, 0.377);
+            box-shadow: 9px 9px 5px 0px rgba(29, 29, 29, 0.377);
+  }
+  main #services .modalLayout .modal-button h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  main #services .modalLayout .modal-button:hover {
+    cursor: pointer;
+  }
+  main #services #webModal section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  main #services #graphicModal img {
+    padding-bottom: 2%;
+    margin-left: 5%;
+    height: auto;
+    max-height: 300px;
+  }
+  main #services #graphicModal .layout .container section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main #services #graphicModal .layout .container section #agirlcoding, main #services #graphicModal .layout .container section #bubble, main #services #graphicModal .layout .container section #riff, main #services #graphicModal .layout .container section #jojo, main #services #graphicModal .layout .container section #redGirl, main #services #graphicModal .layout .container section #media, main #services #graphicModal .layout .container section #logo, main #services #graphicModal .layout .container section #noodles {
+    width: 400px;
+    padding: 1%;
+  }
+  main #services #graphicModal .layout .container section #bubble {
+    height: 30%;
+  }
+  main #services #graphicModal .layout .container section #bubble #bubbleImg {
+    margin: 0%;
+    width: 150px;
+  }
+  main #services #graphicModal .layout .container section #riff img {
+    margin: 0%;
+    width: 500px;
+    margin-left: -10%;
+    margin-top: -15%;
+  }
+  main #services #graphicModal .layout .container section #jojo #jojoImg {
+    height: 1000px;
+    margin: 0%;
+  }
+  main #services #graphicModal .layout .container section #media #mediaImg {
+    width: auto;
+    height: 600px;
+    margin: 0%;
+  }
+  main #services #graphicModal .layout .container section #logo #logoImg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 200px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main #services #graphicModal .layout .container section #logo #logoImg #dorado {
+    padding: 0%;
+    margin: 0%;
+    width: 250px;
+    height: 700px;
+  }
+  main #services #graphicModal .layout .container section #logo #logoImg #moderno {
+    width: 300px;
+    padding: 0%;
+    margin: 0%;
+    height: 250px;
+  }
+  main #services #graphicModal .layout .container section #noodles img {
+    width: 200px;
+  }
+  main #services #uxModal section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  main #services #uxModal section .demo {
+    margin-top: 20%;
+    text-decoration: none;
+  }
+  main #services #artModal article {
+    margin-bottom: 5%;
+  }
+  footer {
+    background-color: #000000ee;
+    color: white;
+    padding: 2%;
+  }
+  footer #socialLayout {
+    padding: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer #socialLayout img {
+    height: 70px;
+  }
+  footer #socialLayout h3 {
+    text-align: center;
+    font-size: 13px;
+  }
+  footer section {
+    text-align: center;
+  }
+  footer section a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: lighter;
+  }
+  footer section a:visited {
+    color: white;
+  }
+  footer section a:hover {
+    font-size: 15px;
+    color: #0c42d8;
+  }
+  footer p {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    scroll-padding-top: 10px;
+    scroll-behavior: smooth;
+  }
+  nav {
+    position: fixed;
+    bottom: 0%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background-color: white;
+    padding: 1%;
+    width: 100%;
+    height: 70px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+  }
+  nav h1 {
+    font-family: 'Shrikhand', cursive;
+    letter-spacing: 2px;
+    margin: 0%;
+    font-size: 13px;
+    padding: 2%;
+  }
+  nav .mainNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+  }
+  nav .mainNav a {
+    padding-top: 5%;
+    padding-right: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+  nav .mainNav a:active {
+    font-size: 15px;
+    color: #0c42d8;
+  }
+  h2 {
+    letter-spacing: 3px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+  #mainLogo {
+    margin-bottom: 2%;
+    margin-top: 5%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 45%;
+    border: 10px solid white;
+    background-color: #000d30;
+  }
+  main .aboutLayout {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 10%;
+  }
+  main .aboutLayout #mainLogo {
+    width: 70%;
+  }
+  main .aboutLayout .aboutMe {
+    background-color: white;
+    text-align: center;
+    padding: 2%;
+    width: 70%;
+    height: 40%;
+    margin-left: 5%;
+  }
+  main #skills {
+    background-color: #000000ee;
+    padding: 3%;
+    color: white;
+  }
+  main #skills h2 {
+    margin: 0%;
+  }
+  main #skills #skillSet {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 1%;
+    font-size: 15px;
+  }
+  main #skills #skillSet ul {
+    width: 350px;
+    list-style-type: none;
+    letter-spacing: 1px;
+  }
+  main #skills #skillSet ul h3 {
+    -webkit-text-decoration-line: dotted;
+            text-decoration-line: dotted;
+    margin-bottom: 3%;
+  }
+  main #skills #skillSet ul li {
+    padding-left: 1%;
+    margin-bottom: 3%;
+  }
+  main #services {
+    padding: 2%;
+    height: auto;
+    margin-top: 3%;
+    margin-bottom: 10%;
+  }
+  main #services .modalLayout {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 60px 40px;
+  }
+  main #services .modalLayout img {
+    height: 100px;
+    margin-bottom: 3%;
+  }
+  main #services .modalLayout .modal-button {
+    background-color: white;
+    height: 200px;
+    width: 240px;
+    border: 5px solid #020202;
+    -webkit-box-shadow: 9px 9px 5px 0px rgba(29, 29, 29, 0.377);
+            box-shadow: 9px 9px 5px 0px rgba(29, 29, 29, 0.377);
+  }
+  main #services .modalLayout .modal-button h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  main #services .modalLayout .modal-button:hover {
+    cursor: pointer;
+  }
+  main #services #webModal section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  main #services #graphicModal img {
+    padding-bottom: 2%;
+    margin-left: 5%;
+    height: auto;
+    max-height: 300px;
+  }
+  main #services #graphicModal .layout .container section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main #services #graphicModal .layout .container section #agirlcoding, main #services #graphicModal .layout .container section #bubble, main #services #graphicModal .layout .container section #riff, main #services #graphicModal .layout .container section #jojo, main #services #graphicModal .layout .container section #redGirl, main #services #graphicModal .layout .container section #media, main #services #graphicModal .layout .container section #logo, main #services #graphicModal .layout .container section #noodles {
+    width: 400px;
+    padding: 1%;
+  }
+  main #services #graphicModal .layout .container section #bubble {
+    height: 30%;
+  }
+  main #services #graphicModal .layout .container section #bubble #bubbleImg {
+    margin: 0%;
+    width: 150px;
+  }
+  main #services #graphicModal .layout .container section #riff img {
+    margin: 0%;
+    width: 500px;
+    margin-left: -10%;
+    margin-top: -15%;
+  }
+  main #services #graphicModal .layout .container section #jojo #jojoImg {
+    height: 1000px;
+    margin: 0%;
+  }
+  main #services #graphicModal .layout .container section #media #mediaImg {
+    width: auto;
+    height: 600px;
+    margin: 0%;
+  }
+  main #services #graphicModal .layout .container section #logo #logoImg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 200px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main #services #graphicModal .layout .container section #logo #logoImg #dorado {
+    padding: 0%;
+    margin: 0%;
+    width: 250px;
+    height: 700px;
+  }
+  main #services #graphicModal .layout .container section #logo #logoImg #moderno {
+    width: 300px;
+    padding: 0%;
+    margin: 0%;
+    height: 250px;
+  }
+  main #services #graphicModal .layout .container section #noodles img {
+    width: 200px;
+  }
+  main #services #uxModal section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  main #services #uxModal section .demo {
+    margin-top: 20%;
+    text-decoration: none;
+  }
+  main #services #artModal article {
+    margin-bottom: 5%;
+  }
+  footer {
+    background-color: #000000ee;
+    color: white;
+    padding: 2%;
+    height: 300px;
+  }
+  footer #socialLayout {
+    padding: 1%;
+    padding-top: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer #socialLayout img {
+    height: 35px;
+  }
+  footer #socialLayout h3 {
+    text-align: center;
+    font-size: 12px;
+  }
+  footer section {
+    text-align: center;
+    padding-top: 2%;
+  }
+  footer section a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: lighter;
+  }
+  footer section a:visited {
+    color: white;
+  }
+  footer section a:hover {
+    font-size: 12px;
+    color: #0c42d8;
+  }
+  footer p {
+    text-align: center;
+    font-size: 10px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
