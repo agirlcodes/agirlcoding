@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Girl Coding</title>
+    <link rel="stylesheet" href="/sass/main.css">
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400&family=Oswald:wght@300;400&family=Raleway:wght@300;400&family=Righteous&family=Roboto+Mono:wght@100;200;300&family=Shrikhand&family=Yanone+Kaffeesatz:wght@300;400&display=swap" rel="stylesheet">
+    <link href='https://css.gg/mail.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/3895cd02be.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <h1>A GIRL CODING</h1>
+        <div class="mainNav">
+            <a href="#mainLogo">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Portfolio</a>
+            <a href="#contact">Contact Me</a>
+        </div>
+    </nav>
+    
+    <main>
+        <div class="aboutLayout">
+        <img id="mainLogo" src="/coursework/graphic/room.svg" alt="">
+        <section class="aboutMe">
+            <h2>NATALY ANGULO/ Junior Front-End Developer</h2>
+            <p>I am looking to work as part of a team within the tech industry. I have not necessarily specisalised into a specific sector within web development, however, I have experience with UX/UI, web development and design. </p>
+        </section>
+        </div>
+        <section id="skills">
+            <h2>SKILLS</h2>
+            <div id="skillSet"></div>
+            <!-- <a href="/coursework/NatalyAnguloCV.pdf" download="Nataly-Angulo.pdf"><p>DOWNLOAD RESUME</p></a> -->
+        </section>
+        <section id="services">
+            <h2>PORTFOLIO</h2>
+                <div class="modalLayout">
+                    <!-- <h2>My Services</h2> -->
+                    <button id="WebBtn" class="modal-button">
+                        <img src="/coursework/icons/web-programming.png" alt="">
+                        <h3>WEB DEVELOPMENT</h3>
+                    </button>
+                    <button id="UXBtn" class="modal-button">
+                        <img src="/coursework/icons/ux-design.png" alt="">
+                        <h3>USER EXPERIENCE</h3></button>
+                        <button id="GraphBtn" class="modal-button">
+                            <img src="/coursework/icons/computer-graphic.png" alt="">
+                            <h3>GRAPHIC DESIGN</h3></button>
+                    <button id="ArtBtn" class="modal-button">
+                        <img src="/coursework/icons/copywriting.png" alt="">
+                        <h3>ARTICLES</h3></button>
+                    <button type="submit" onclick="window.open('/coursework/NatalyAnguloCV.pdf')" class="modal-button">
+                        <img src="/coursework/icons/cv.png" alt="">
+                        <h3>DOWNLOAD RESUME</h3></button>
+                </div>
+                <div id="webModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <!-- RIFF RAFF STUDIOS -->
+                        <div id="webstuff" class="layout">
+                            <h2 id="webTitle">WEBSITES</h2>
+                            <section>
+                                <h3>RIFF RAFF STUDIOS</h3>
+                                <p>My first collaboration project with another web developer on our project with Riff Raff Studios. An indie game company promoting their WebGL game, Kevin's Adventure.</p>
+                                <p>My role was more guided towards the design elements, such as the main illustration and the bubbles animation(CSS ANIMATION) that float up across the side of the page</p>
+                                <a class="link" target="_blank" href="https://github.com/teampayasas/Riff-Raff.git">View Github</a> 
+                                <a class="link" target="_blank" href="https://riff-raff-studios.netlify.app/">View Page</a>
+                                <h3>MARKETING</h3>
+                                <p>We also marketed this game on behalf of the studio, if you are interested on how we did, read the report. </p>
+                                <a class="link" href="/portfolioPages/coursework/ux/Marketing Report.pdf" download="Riff Raff Marketing Report">View Report</a>
+                            </section>
+                            <section>
+                                <h3>HOTEL RESTO</h3>
+
+                                <p>In this project I worked in a team to build a hotel website to showcase a booking system, which is integrated with Alan AI. The purpose for this was to make an easier experience for management that are regulary overwhelmed with the amount of cancelling, adding and editing bookngs.</p>
+                                    <p>This project works with MongoDB Realm and Alan AI. The crud operations do not work with the Alan AI but try it out. The script flows well.</p>
+                                    <p>Please use these login details for the admin login <br>admin user: admin@mail.com <br>password: admin1</p>
+                                    <br>
+                                <a class="link" target="_blank" href="https://github.com/teampayasas/hotel-resto">View Github</a> 
+                                <a class="link" target="_blank" href="https://hotel-resto.netlify.app/">View Page</a>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div id="uxModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="layout">
+                            <h2>User Experience</h2>
+                            <section>
+                                <h3>WHISKS AND THINGS</h3>
+                                
+                                <p>A little about my UX experience...I wrote my first analysis as part of a University exam where I analysed Whisk and Things's website. I created detailed personnas that this website may have been targetting, as well as, what their first impression would have been. As we know, the attention span of users is limited when it comes to websites and they make a decision whether to stay on a website or not in 5 seconds,this is important to understand when testing a websites usability.</p>
+                                <a class="link" href="/coursework/ux/whiskandthings.pdf">View Report</a>
+                                <a class="link" href="https://whiskandthings.co.uk/">Whisk and Things Page</a>
+                            </section>
+                            <section>
+                                <h3>UX REPORT</h3>
+                                <p>I wrote my first UX report for Alex De Corte, analysing their website based on usability heuristics and what improvements I would make. These are the ux design recommendations made with Adobe XD,  for their website. See the results:
+                                    <a class="demo" target="_blank" href="https://xd.adobe.com/view/eee7978c-8a58-4ed0-a6a2-bb35d86120cd-bbb4/">Pop-up design</a>, 
+                                    <a class="demo" target="_blank" href="https://xd.adobe.com/view/90bc0dc7-3d63-4d83-b2e6-2a2a15c281d5-c5ef/">Gallery</a>, 
+                                    <a class="demo" target="_blank" href="https://xd.adobe.com/view/063f7f3d-df30-4498-bf65-16342a6a6ba7-536c/">About</a>
+                                </p>
+                                <a class="link" target="_blank" href="/coursework/ux/user test report.pdf">View Report</a>
+                                <a class="link" target="_blank" href="http://alexdacorte.com/">Alex De Corte Page</a>
+                            </section>
+                            <section>
+                                <h3>PEARSONS PEACHPIT</h3>
+                                <p>I did a UX review on one of Pearson's child companies. I chose Peachpit because as a student, geting books from reliable sources is important, especially when it comes to writing academic essays. This is why I selected Peachpit. </p>
+                                <a class="link" target="_blank" href="/coursework/ux/peachpit.pdf">View Report</a>
+                                <a class="link" target="_blank" href="https://xd.adobe.com/view/391f1942-0043-493b-bc2d-bb9c3c047c70-6c4c/">View Recommendations</a>
+                                <a class="link" target="_blank" href="https://peachpit.com">View Peachpit Page</a>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div id="graphicModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="layout">
+                            <h2>Graphic Design Projects</h2>
+                            <div class="container">
+                                <h3>WEB CONTENT</h3>
+                                    <section>
+                                        <div id="agirlcoding">
+                                            <h3>AGirlCoding Landing Page</h3>
+                                            <img id="roomImg" src="/coursework/graphic/room.svg">
+                                            <p>The reason I created this piece is because I wanted to represent what is important to me, not only as a developer but also the wider parts of my personal life. I wanted to create a playful but also profesional feel, which is the reason to the colour scheme.</p>
+                                        </div>
+                                        <div id="bubble">
+                                            <h3>Bubble Animation</h3>
+                                            <img id="bubbleImg" src="/coursework/graphic/bubble.jpg">
+                                            <div id="layout">
+                                                <p>This animation was made for the Riff Raff Studios website I collaborated on, the animation was created to bring a sense of playfulness. What's more playful than bubbles?</p>
+                                                <a class="link" target="_blank" href="https://github.com/teampayasas/Riff-Raff.git">View Github</a>
+                                                <a class="link" target="_blank" href="https://riff-raff-studios.netlify.app/">View Page</a>
+                                            </div>
+                                        </div>
+                                        <div id="riff">
+                                        <h3>Riff Raff Landing Page</h3>
+                                        <img id="riffRaffImg" src="/coursework/graphic/riffraff.svg">
+                                        <p>I designed this landing page to be part of the Riff Raff website, given the young age demographic, I created a playful design. I used things such as the blue sky and clouds that would be remeniscent of toy story and their childhoods to attract and retain the users.</p>
+                                        <a class="link" target="_blank" href="https://riff-raff-studios.netlify.app/">View Page</a>
+                                        </div>
+                                    </section>
+                                <h3>GRAPHIC DESIGN</h3>
+                                    <section>
+                                        <!-- <div id="jojo">
+                                            <h3>Jojo's Bizarre Adventure Posters</h3>
+                                            <img id="jojoImg" src="/coursework/graphic/siwa.svg" alt="">
+                                            <p>I created these posters as a kind of fanart, I love the artstyle and wanted to create my own type of character that is inspired by one of my favourtie characters. Working with the colours were a struggle, however, when I found the cololurs I were hapy to go with, it boosted my understanding of colour theory.</p>
+                                        </div> -->
+                                        <div id="redGirl">
+                                            <h3>The Girl In Red</h3>
+                                            <img src="/coursework/graphic/jojo.png">
+                                            <p>This is work which I was experimenting on. I mainly wanted to play with colour and line work using photoshop.</p>
+                                        </div>
+                                    </section>
+                                <h3>MEDIA WORK</h3>
+                                    <section>
+                                        <div id="media">
+                                            <img id="mediaImg" src="/coursework/graphic/mediaArtical.png">
+                                            <p>I enjoy being creative and working on different media forms, here is a project I created for my coursework. The intent was to create content that could market an artist to an audience.
+                                            In order to create this project I used my photography and filming skills to create an article and music video for the artist Beauty Queen. This is where I put my photoshop and Adobe premier pro knowledge to use.</p>
+                                            <a class="link" target="_blank" href="https://www.youtube.com/watch?v=xUnQbjowGnY">View youtube video</a>
+                                        </div>
+                                    </section>
+                                    <h3>LOGOs</h3>
+                                    <section>
+                                        <div id="logo">
+                                            <h3>Logo Prototypes</h3>
+                                            <div id="designlogo">
+                                                <div id="logoImg">
+                                                    <img id="dorado" src="/coursework/graphic/elDorado.svg">
+                                                    <img id="moderno" src="/coursework/graphic/modernoLogo.svg">
+                                                </div>
+                                                <p>These designs are logo ideas for fake companies. El Dorado is for a jewlery company, where the colours and shapes give an elegant and high-end feel. A jewlwery brand you'd spend money at.
+                                                Moderno is a logo for an architecture firm, the reason for this is because of the hardlines. Architecture reminds me of calculated and perfect angles, which is what is reflected in this logo.</p>
+                                            </div>
+                                        </div>
+                                        <div id="noodles">
+                                            <h3>Noodle Animation</h3>
+                                            <img src="/coursework/graphic/noodle.jpg">
+                                            <p>This animation was made for a resturant, the requirements were: it had to be relevant to the business. For this animation, I used SASS, mixins and variables in order to make my code readable.</p>
+                                            <a class="link" target="_blank" href="https://github.com/agirlcodes/animation">View Github</a>
+                                        </div>
+                                    </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="artModal" class="modal">
+                    <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="layout">
+                            <h2 id="reportTitle">ARTICLES</h2>
+                            <article>
+                                <h3>Will Neuralink broaden accessibility to technology for the disabled community? </h3>
+                                <date>25th of March 2022</date>
+                                <p>This article required a lot of research on Neuralink and its impact on accessability and modern technology.</p>
+                                <a class="link" target="_blank" href="/coursework/other/Neuralink.pdf">Read this article</a>
+                            </article>
+                            <article>
+                                <h3>The Digitisation of all human knowledge</h3>
+                                <date>4th of Decemeber 2020</date>
+                                <p>This article is about how humankind has evolved the way we preserve our history and how technology may impact and shape the course of culture.</p>
+                                <a class="link" target="_blank" href="/coursework/other/The gradual digitisation of knowledge.pdf" >Read this article</a>
+                            </article>
+                            <article>
+                                <h3>Do dreams reflect reality?</h3>
+                                <date>18th of October 2020</date>
+                                <p>In this article, I analyse how technology may be useful in psychology, more specifically, theoretical psychology. Potentially becoming the source in which all ethical issues become eliminated.</p>
+                                <a class="link" target="_blank" href="/coursework/other/Do dreams reflect reality.pdf">Read this article</a>
+                            </article>
+                            <p><i>If any of these articles interest you, tell me what you think via my <a href="mailto:nataly.angulo530@gmail.com?subject=Let's talk about the articles">email</a></i></p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer id="contact">
+    <section>
+        <p>Like my work? LETS CONNECT!</p> 
+        <a id="emailLink" href= "mailto:nataly.angulo530@gmail.com" subject="Contacting%20You%20From%20AGirlCoding">nataly.angulo530@gmail.com</a>
+    </section>
+    <!-- <h3>Connect With Me</h3> -->
+    <section id="socialLayout">
+    <a target="_blank" href="https://github.com/agirlcodes?tab=repositories" class="layout">
+        <img src="/coursework/icons/github.png" alt="">
+        <h3>Github</h3>
+    </a>
+    <a target="_blank" href= "https://codepen.io/your-work" class="layout">
+        <img src="/coursework/icons/codepen.png" alt="">
+        <h3>CodePen</h3>
+    </a>
+    <a target="_blank" href= "https://www.linkedin.com/in/nataly-angulo-370489236/" class="layout">
+        <img src="/coursework/icons/linkedin.png" alt="">
+        <h3>LinkedIn</h3>
+    </a>
+    <a target="_blank" href= "https://www.youtube.com/channel/UCneCZ1uPm1hl-nW09BoYivw" class="layout">
+        <img src="/coursework/icons/youtube.png" alt="">
+        <h3>Youtube</h3>
+    </a>
+    </section>
+    <p>&#9400; Copyright 2022</p>    
+    </footer>
+</body>
+<script src="main.js"></script>
+</html>

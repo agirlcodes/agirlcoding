@@ -1,0 +1,315 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0%;
+    // scroll-behavior: smooth;
+    font-family: 'Montserrat';
+}
+nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    width: 100%;
+    h1{
+        font-family: 'Shrikhand', cursive;
+        letter-spacing: 2px;
+        margin: 0%;
+        font-size: 25px;
+    }
+    .mainNav{
+        a{
+            padding-left: 20px;
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+        }
+        a:hover{
+            font-size: 15px;
+            color: #0c42d8;
+        }
+    }
+}
+h2{
+    // color: #ffae44;
+    // color: white;
+    letter-spacing: 3px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+#mainLogo{
+    margin-bottom: 2%;
+    margin-top: 5%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 45%;
+    border: 10px solid white;
+    background-color: #000d30;
+}
+main{
+    .aboutLayout{
+        display:flex;
+        flex-direction: row;
+    }
+    .aboutMe{
+        background-color: white;
+        margin-top: 10%;
+        margin-right: 10%;
+        padding: 2%;
+        width: 70%;
+        height: 40%;
+    }
+    #skills{
+        background-color: #000000ee;
+        padding: 3%;
+        color: white;
+        h2{
+            margin: 0%;
+        }
+        #skillSet{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            // height: 400px;
+            padding: 1%;
+            ul{
+                width: 350px;
+                list-style-type: none;
+                letter-spacing: 1px;
+                h3{
+                    text-decoration-line: dotted;
+                    margin-bottom: 3%;
+                }
+                li{
+                    padding-left: 1%;
+                    margin-bottom: 3%;
+                }
+            }
+        }
+    }
+    #services{
+        padding: 2%;
+        height: auto;
+        margin-top: 3%;
+        margin-bottom: 10%;
+        .modalLayout{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-left: 10%;
+            margin-right: 10%;
+            gap: 60px 40px;
+            img{
+                height: 100px;
+                margin-bottom: 3%;
+                
+            }
+            .modal-button{
+                background-color: rgb(255, 255, 255);
+                height: 200px;
+                width: 350px;
+                border: 5px solid #020202;
+                box-shadow: 9px 9px 5px 0px rgba(29, 29, 29, 0.377);
+                h3{
+                    font-family: 'Montserrat', sans-serif;
+                    text-align: center;
+                    letter-spacing: 2px;
+                }
+            }
+            .modal-button:hover{
+                cursor: pointer;
+            }
+        }
+        #webModal{
+            section{
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
+        }
+        #graphicModal{
+            img{
+                padding-bottom: 2%;
+                margin-left: 5%;
+                height: auto;
+                max-height: 300px;
+            }
+            .layout{
+                .container{
+                    section{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        // margin-top: 2%;
+                        #agirlcoding, #bubble, #riff, #jojo, #redGirl,#media, #logo, #noodles{
+                            width: 400px;
+                            padding: 1%;
+                        }
+                        #bubble{
+                            height: 30%;
+                            #bubbleImg{
+                                margin: 0%;
+                                width:150px;
+                            }
+                        }
+                        #riff{
+                            img{
+                                margin: 0%;
+                                width: 500px;
+                                margin-left: -10%;
+                                margin-top: -15%;
+                            }
+                        }
+                        #jojo{
+                            #jojoImg{
+                                height: 1000px;
+                                margin: 0%;
+                            }
+                        }
+                        #media{
+                            #mediaImg{
+                                width: auto;
+                                height: 600px;
+                                margin: 0%;
+                            }
+                        }
+                        #logo{
+                            #logoImg{
+                                display: flex;
+                                flex-direction: row;
+                                height: 200px;
+                                justify-content: center;
+                                #dorado{
+                                    padding: 0%;
+                                    margin: 0%;
+                                    width: 250px;
+                                    height: 700px;
+                                }
+                                #moderno{
+                                    width: 300px;
+                                    padding: 0%;
+                                    margin: 0%;
+                                    height: 250px;
+                                    // margin-left: -5%;
+                                }
+                            }
+                        }
+                        #noodles{
+                            img{
+                                width: 200px;
+                            }
+                        }
+                    }
+                }
+            }   
+        }
+        #uxModal{
+            section{
+                margin-top: 5%;
+                margin-bottom: 5%;
+                .demo{
+                    margin-top: 20%;
+                    text-decoration: none;
+                }
+            }
+        }
+        #artModal{
+            article{
+                margin-bottom: 5%;
+            }
+        }
+    }
+}
+footer{
+    background-color: #000000ee;
+    color: white;
+    padding: 2%;
+    #socialLayout{
+        padding: 1%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        // align-items: center;
+        img{
+            height: 70px;
+        }
+        h3{
+            text-align: center;
+            font-size: 13px;
+        }
+    }
+    section{
+        text-align: center;
+        a{
+            text-decoration: none;
+            letter-spacing:1px;
+            color: white;
+            font-weight: lighter;
+        }
+        a:visited{
+            color: white;
+        }
+        a:hover{
+            font-size: 15px;
+            color: #0c42d8;
+        }
+    }
+    p{
+        text-align: center;
+    }
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0, 0, 0, 0.5);
+    .modal-content {
+        background-color: #ffffff;
+        border: 5px solid #000000ee;
+        margin: 15% auto;
+        margin-top: 5%;
+        padding: 3%;
+        min-height: 75%;
+        width: 70%;
+        font-size: 14px;
+        .layout{
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+       }
+       .link{
+        background-color: rgb(0, 153, 255);
+        color: white;
+        text-decoration: none;
+        padding: 1%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        }
+        .link:hover{
+            background-color: rgb(119, 212, 255);
+        }
+    }
+}
+
