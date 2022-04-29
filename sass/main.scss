@@ -181,7 +181,7 @@ body{
                     margin-bottom: 3%;
                     
                 }
-                .modal-button{
+                .modal-button, .modalBtn{
                     background-color: rgb(255, 255, 255);
                     height: 200px;
                     width: 350px;
@@ -193,7 +193,7 @@ body{
                         letter-spacing: 2px;
                     }
                 }
-                .modal-button:hover{
+                .modal-button, .modalBtn:hover{
                     cursor: pointer;
                 }
             }
@@ -473,7 +473,7 @@ body{
                         letter-spacing: 2px;
                     }
                 }
-                .modal-button, .modalBtn:hover{
+                .modal-button:hover, .modalBtn:hover{
                     cursor: pointer;
                 }
             }

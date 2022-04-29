@@ -226,7 +226,7 @@ body {
     height: 100px;
     margin-bottom: 3%;
   }
-  main #services .modalLayout .modal-button {
+  main #services .modalLayout .modal-button, main #services .modalLayout .modalBtn {
     background-color: white;
     height: 200px;
     width: 350px;
@@ -234,12 +234,12 @@ body {
     -webkit-box-shadow: 9px 9px 5px 0px rgba(29, 29, 29, 0.377);
             box-shadow: 9px 9px 5px 0px rgba(29, 29, 29, 0.377);
   }
-  main #services .modalLayout .modal-button h3 {
+  main #services .modalLayout .modal-button h3, main #services .modalLayout .modalBtn h3 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     letter-spacing: 2px;
   }
-  main #services .modalLayout .modal-button:hover {
+  main #services .modalLayout .modal-button, main #services .modalLayout .modalBtn:hover {
     cursor: pointer;
   }
   main #services #webModal section {
@@ -543,7 +543,7 @@ body {
     text-align: center;
     letter-spacing: 2px;
   }
-  main #services .modalLayout .modal-button, main #services .modalLayout .modalBtn:hover {
+  main #services .modalLayout .modal-button:hover, main #services .modalLayout .modalBtn:hover {
     cursor: pointer;
   }
   main #services #webModal section {
