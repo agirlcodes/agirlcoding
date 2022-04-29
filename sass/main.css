@@ -543,7 +543,7 @@ body {
     text-align: center;
     letter-spacing: 2px;
   }
-  main #services .modalLayout .modal-button:hover {
+  main #services .modalLayout .modal-button, main #services .modalLayout .modalBtn:hover {
     cursor: pointer;
   }
   main #services #webModal section {

@@ -17,9 +17,6 @@ btn[2].onclick = function() {
 btn[3].onclick = function() {
   modal[3].style.display = "block";
 }
-btn[4].onclick = function() {
-  modal[4].style.display = "block";
-}
 // When the user clicks on <span> (x), close the modal
 spans[0].onclick = function() {
   modal[0].style.display = "none";
