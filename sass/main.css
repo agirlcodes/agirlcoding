@@ -17,6 +17,7 @@ body {
 }
 
 .modal .modal-content {
+  position: relative;
   background-color: #ffffff;
   border: 5px solid #000000ee;
   margin: 15% auto;
@@ -25,6 +26,10 @@ body {
   min-height: 75%;
   width: 70%;
   font-size: 14px;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
 }
 
 .modal .modal-content .layout {
@@ -56,6 +61,29 @@ body {
 
 .modal .modal-content .link:hover {
   background-color: #77d4ff;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -129,6 +157,10 @@ body {
     padding: 2%;
     width: 70%;
     height: 40%;
+  }
+  main .aboutMe p {
+    text-align: justify;
+    letter-spacing: 2px;
   }
   main #skills {
     background-color: #000000ee;
@@ -428,6 +460,10 @@ body {
     width: 70%;
     height: 40%;
     margin-left: 5%;
+  }
+  main .aboutLayout .aboutMe p {
+    text-align: justify;
+    letter-spacing: 2px;
   }
   main #skills {
     background-color: #000000ee;

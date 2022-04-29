@@ -1,63 +1,53 @@
-//MODAL
-// var modal = document.getElementById("myModal");
-var span = document.getElementsByClassName("close");
-// console.log(span)
-let WebBtn = document.getElementById('WebBtn')
-WebBtn.onclick = function(){
-    var modal = document.getElementById("webModal");
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
-    modal.style.display = "block";
-  }
-let GraphBtn = document.getElementById('GraphBtn')
-GraphBtn.onclick = function(){
-    var modal = document.getElementById("graphicModal");
-    span.onclick = function() {
-      modal.style.display = "none";
-      console.log("i am working")
-    }
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
-    modal.style.display = "block";
-  }
-let UXBtn = document.getElementById('UXBtn')
-UXBtn.onclick = function(){
-    var modal = document.getElementById("uxModal");
-    span.onclick = function() {
-      modal.style.display = "none";
-      console.log("i am working")
-    }
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
-    modal.style.display = "block";
-  }
-let ArtBtn = document.getElementById('ArtBtn')
-ArtBtn.onclick = function(){
-    var modal = document.getElementById("artModal");
-    span.onclick = function() {
-      modal.style.display = "none";
-      console.log("i am working")
-    }
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
-    modal.style.display = "block";
-  }
-
+// Get the button that opens the modal
+var btn = document.querySelectorAll("button.modal-button");
+// All page modals
+var modal = document.querySelectorAll('.modal');
+// Get the <span> element that closes the modal
+var spans = document.getElementsByClassName("close");
+// When the user clicks the button, open the modal 
+btn[0].onclick = function() {
+  modal[0].style.display = "block";
+}
+btn[1].onclick = function() {
+  modal[1].style.display = "block";
+}
+btn[2].onclick = function() {
+  modal[2].style.display = "block";
+}
+btn[3].onclick = function() {
+  modal[3].style.display = "block";
+}
+btn[4].onclick = function() {
+  modal[4].style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+spans[0].onclick = function() {
+  modal[0].style.display = "none";
+}
+spans[1].onclick = function() {
+  modal[1].style.display = "none";
+}
+spans[2].onclick = function() {
+  modal[2].style.display = "none";
+}
+spans[3].onclick = function() {
+  modal[3].style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal[0]) {
+       modal[0].style.display = "none";
+   }
+  if (event.target == modal[1]) {
+       modal[1].style.display = "none";
+   }  
+  if (event.target == modal[2]) {
+       modal[2].style.display = "none";
+   }  
+  if (event.target === modal[3]) {
+       modal[3].style.display = "none";
+   }  
+}
 
   
 
@@ -94,17 +84,19 @@ skillLayout.innerHTML = `
 
 <ul>
 <h3>Design Software</h3>
-  <li>Adobe Photoshop - ${designWeb} year</li>
-  <li>Adobe Illustrator - ${designWeb} year </li>
-  <li>Adobe XD - ${designWeb} year</li>
-  <li>Krita - ${basicWeb} years</li>
-  <li>Figma - 3 Months</li>
+<li>Adobe Photoshop - ${designWeb} year</li>
+<li>Adobe Illustrator - ${designWeb} year </li>
+<li>Adobe XD - ${designWeb} year</li>
+<li>Krita - ${basicWeb} years</li>
+<li>Figma - 3 Months</li>
 </ul>
 
 <ul>
 <h3>Other Skills</h3>
 <li>Microsoft Office -  ${basicWeb} years</li>
 <li>G Suite - ${basicWeb} years</li>
-  <li>Copywriting - ${smartWeb} year</li>
+<li>Copywriting - ${smartWeb} year</li>
 </ul>
 `
+
+console.log(skillLayout)
