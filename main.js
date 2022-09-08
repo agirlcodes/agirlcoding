@@ -71,12 +71,13 @@ skillLayout.innerHTML = `
 <h3>Web Technologies</h3>
 <li>HTML - ${basicWeb} years</li>
 <li>CSS - ${basicWeb} years </li>
+<li>JavaScript - ${basicWeb} year</li>
 <li>SASS - ${smartWeb} year</li>
-<li>JavaScript - ${smartWeb} year</li>
 <li>REST APIs - ${smartWeb} year</li>
-<li>MERN Stack - 3 Months</li>
-<li>Node.js - 3 Months</li>
-<li>Supabase - 3 Months</li>
+<li>MERN Stack - Less than One year</li>
+<li>jQuery - Less than One year</li>
+<li>Node.js - Less than One year</li>
+<li>Supabase - Less than One year</li>
 </ul>
 
 <ul>
@@ -85,7 +86,7 @@ skillLayout.innerHTML = `
 <li>Adobe Illustrator - ${designWeb} year </li>
 <li>Adobe XD - ${designWeb} year</li>
 <li>Krita - ${basicWeb} years</li>
-<li>Figma - 3 Months</li>
+<li>Figma - Less than One year</li>
 </ul>
 
 <ul>
