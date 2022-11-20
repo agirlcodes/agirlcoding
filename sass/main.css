@@ -245,6 +245,11 @@ body {
     margin-top: 5%;
     margin-bottom: 5%;
   }
+  main #services #webModal section img {
+    padding-bottom: 2%;
+    height: auto;
+    max-height: 250px;
+  }
   main #services #graphicModal img {
     padding-bottom: 2%;
     margin-left: 5%;
@@ -499,9 +504,13 @@ body {
     margin-top: 5%;
     margin-bottom: 5%;
   }
+  main #services #webModal section img {
+    padding-bottom: 2%;
+    height: auto;
+    max-height: 150px;
+  }
   main #services #graphicModal img {
     padding-bottom: 2%;
-    margin-left: 5%;
     height: auto;
     max-height: 300px;
   }
@@ -520,16 +529,7 @@ body {
     padding: 1%;
   }
   main #services #graphicModal .layout .container section #bubble {
-    height: 20%;
-  }
-  main #services #graphicModal .layout .container section #bubble #bubbleImg {
-    margin: 0%;
-    width: 150px;
-  }
-  main #services #graphicModal .layout .container section #riff img {
-    margin: 0%;
-    width: 500px;
-    margin-left: -10%;
+    height: 30%;
   }
   main #services #graphicModal .layout .container section #jojo #jojoImg {
     height: 1000px;

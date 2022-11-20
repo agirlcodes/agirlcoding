@@ -200,6 +200,12 @@ body{
                 section{
                     margin-top: 5%;
                     margin-bottom: 5%;
+                    img{
+                        padding-bottom: 2%;
+                        // margin-left: 5%;
+                        height: auto;
+                        max-height: 250px;
+                    }
                 }
             }
             #graphicModal{
@@ -480,12 +486,18 @@ body{
                 section{
                     margin-top: 5%;
                     margin-bottom: 5%;
+                    img{
+                        padding-bottom: 2%;
+                        // margin-left: 5%;
+                        height: auto;
+                        max-height: 150px;
+                    }
                 }
             }
             #graphicModal{
                 img{
                     padding-bottom: 2%;
-                    margin-left: 5%;
+                    // margin-left: 5%;
                     height: auto;
                     max-height: 300px;
                 }
@@ -502,18 +514,10 @@ body{
                             }
                             #bubble{
                                 height: 30%;
-                                #bubbleImg{
-                                    margin: 0%;
-                                    width:150px;
-                                }
-                            }
-                            #riff{
-                                img{
-                                    margin: 0%;
-                                    width: 500px;
-                                    margin-left: -10%;
-                                    // margin-top: -15%;
-                                }
+                                // #bubbleImg{
+                                //     margin: 0%;
+                                //     width:150px;
+                                // }
                             }
                             #jojo{
                                 #jojoImg{
