@@ -520,7 +520,7 @@ body {
     padding: 1%;
   }
   main #services #graphicModal .layout .container section #bubble {
-    height: 30%;
+    height: 20%;
   }
   main #services #graphicModal .layout .container section #bubble #bubbleImg {
     margin: 0%;
@@ -530,7 +530,6 @@ body {
     margin: 0%;
     width: 500px;
     margin-left: -10%;
-    margin-top: -15%;
   }
   main #services #graphicModal .layout .container section #jojo #jojoImg {
     height: 1000px;
