@@ -30,11 +30,12 @@
     </nav>
     <main>
         <div class="aboutLayout">
+        <h2 id="name">NATALY ANGULO</h2>
         <img id="mainLogo" src="/coursework/graphic/room.svg" alt="">
-        <section class="aboutMe">
-            <h2>NATALY ANGULO/ Junior Front-End Developer</h2>
-            <p>I am looking to work as part of a team within the tech industry. I have not necessarily specisalised into a specific sector within web development, however, I have experience with UX/UI, web development and design. </p>
-        </section>
+        <!-- <section class="aboutMe"> -->
+            <!-- Junior Front-End Developer</h2> -->
+            <!-- <p>I am looking to work as part of a team within the tech industry. I have not necessarily specisalised into a specific sector within web development, however, I have experience with UX/UI, web development and design. </p> -->
+            <!-- </section> -->
         </div>
         <section id="skills">
             <h2>SKILLS</h2>
@@ -44,16 +45,18 @@
             <h2>PORTFOLIO</h2>
                 <div class="modalLayout">
                     <!-- <h2>My Services</h2> -->
-                    <button id="WebBtn" class="modal-button" href="#webModal">
+                    <!-- <button id="WebBtn" class="modal-button" href="#webModal">
                         <img src="/coursework/icons/web-programming.png" alt="">
                         <h3>WEB DEVELOPMENT</h3>
+                    </button> -->
+                    <button id="GraphBtn" class="modal-button" href="#graphicModal">
+                        <img src="/coursework/icons/computer-graphic.png" alt="">
+                        <h3>Digital/ Multimedia Work</h3>
                     </button>
                     <button id="UXBtn" class="modal-button" href="#uxModal">
                         <img src="/coursework/icons/ux-design.png" alt="">
-                        <h3>USER EXPERIENCE</h3></button>
-                    <button id="GraphBtn" class="modal-button" href="#graphicModal">
-                            <img src="/coursework/icons/computer-graphic.png" alt="">
-                            <h3>GRAPHIC DESIGN</h3></button>
+                        <h3>USER EXPERIENCE</h3>
+                    </button>
                     <button id="ArtBtn" class="modal-button" href="#artModal">
                         <img src="/coursework/icons/copywriting.png" alt="">
                         <h3>ARTICLES</h3></button>
@@ -61,7 +64,7 @@
                         <img src="/coursework/icons/cv.png" alt="">
                         <h3>DOWNLOAD RESUME</h3></button>
                 </div>
-                <div id="webModal" class="modal">
+                <!-- <div id="webModal" class="modal">
                     <div class="modal-content">
                         <span class="close">&times;</span>
                         <div id="webstuff" class="layout">
@@ -106,83 +109,185 @@
                             </section>
                         </div>
                     </div>
+                </div> -->    
+                <div id="graphicModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="layout">
+                            <h2>Digital/ Multimedia Work</h2>
+                            <div class="container">
+                                <nav id="modalNav">
+                                    <a href="#webDevWork">Web Development</a>
+                                    <a href="#webDesignWork">Web Design</a>
+                                    <a href="#graphicWork">Graphic Design</a>
+                                    <a href="#mediaWork">Media Work</a>
+                                </nav>
+                                <br id="webDevWork">
+                                <br>
+                                <h3 class="modalUnderline">WEB DEVELOPMENT</h3>
+                                <section>
+                                    <div>
+                                        <h4>NIRVANA COSMETICS</h4>
+                                        <p>
+                                            <b><i>Does the lack of Accessibility design in web development impact businesses negatively?</i></b> 
+                                            <br>
+                                            As part of my university dissertation, I worked on a project that responded to that question and provided an example of an accessible E-commerce website.</p>
+                                            <p>This project works with MongoDB, jQuery, Paypal API and Sass. A variety of tools were used in order to measure it's accessibility, most of which are online audits of the site of which passed at a 95% rate. Mobile Friendly.</i></p>
+                                            <p>The website is currently under some rework, if you would like to see it please contact me.</p>
+                                            <p><i>Update: Rewarded a <b>first</b>, as marked by SAE London <br>[Certified by Middlesex University].</i></p>
+                                            <br>
+                                        <!-- <a class="link" target="_blank" href="https://accessibilityproject.herokuapp.com/">View Website</a>  -->
+                                        <a class="link" target="_blank" href="https://github.com/agirlcodes/accessibilityProject">View Github</a> 
+                                        <a class="link" target="_blank" href="/coursework/other/dissertation.pdf">Read Dissertation</a> 
+                                    </div>
+                                    <div>
+                                        <h3>HOTEL RESTO</h3>
+                                        
+                                        <p>In this project I worked in a team to build a booking system for a hotel. I was tasked with setting up the database and connecting it with Alan AI, which can be seen functioning once the 'admin'logs in. I believed combining the AI with the database would streamline the booking process. The purpose for this was to make an easier experience for management that are regulary overwhelmed with the amount of cancelling, adding and editing of bookngs. Working with MongoDB and Alan AI allowed me to develop my backend skills while also experimenting with new web technologies.</p>
+                                        <p>This project works with MongoDB Realm and Alan AI. The crud operations do not work with the Alan AI but try it out. The script flows well. <br><i>Disclaimer: this website is not mobile friendly</i></p>
+                                        <p>Please use these login details for the admin login <br>admin user: admin@mail.com <br>password: admin1</p>
+                                        <br>
+                                        <a class="link" target="_blank" href="https://hotel-resto.netlify.app/">View Website</a>
+                                        <a class="link" target="_blank" href="https://github.com/teampayasas/hotel-resto">View Github</a> 
+                                    </div>
+                                    <div>
+                                        <h4>RIFF RAFF STUDIOS</h4>
+                                        <p>My first collaboration project with another web developer on our project with Riff Raff Studios. An indie game company promoting their WebGL game, Kevin's Adventure.</p>
+                                        <h4>Landing Page</h4>
+                                        <p>I created a playful design to appeal to the young age demographic the game was aimed at. I used things such as the blue sky and clouds that would be remeniscent of toy story to attract and retain the users.</p>
+                                        <h4>Bubble Animation</h4>
+                                        <p>The animation was created to bring a sense of playfulness and make the site interactive. What's more playful than bubbles?</p>
+                                        <a class="link" target="_blank" href="https://codepen.io/agirlcoding/pen/jOKYrqB">View Codepen</a>
+                                        <a class="link" target="_blank" href="https://riff-raff-studios.netlify.app/">View Website</a>
+                                        <a class="link" target="_blank" href="https://github.com/teampayasas/Riff-Raff.git">View Github</a> 
+                                    </div>
+                                    <div>
+                                        <h4>RIFF RAFF MARKETING</h4>
+                                        <h4>Marketing</h4>
+                                        <p>As part of the project, my team and I marketed this game on behalf of the studio. We used a range of web and email analytics to gauge user interaction which we present our findings on, in our report. </p>
+                                        <a class="link" href="/coursework/ux/Marketing Report.pdf" download="Riff Raff Marketing Report">View Report</a>
+                                        
+                                    </div>
+                                </section>
+                                <br id="webDesignWork">
+                                <br>
+                                <h3 class="modalUnderline"> WEB DESIGN</h3>
+                                <section>
+                                    <div id="agirlcoding">
+                                        <h4>AGirlCoding Landing Page</h4>
+                                        <img id="roomImg" src="/coursework/graphic/room.svg">
+                                        <p>The reason I created this piece is because I wanted to represent what is important to me, not only as a developer but also the wider parts of my personal life. I wanted to create a playful but also profesional feel, which is the reason to the colour scheme.</p>
+                                    </div>
+                                    <div>
+                                        <h4>Noodle Animation</h4>
+                                        <img src="/coursework/graphic/noodle.jpg">
+                                        <p>This animation was made for a resturant, the requirements were: it had to be relevant to the business. For this animation, I used SASS, mixins and variables in order to make my code readable.</p>
+                                        <a class="link" target="_blank" href="https://codepen.io/agirlcoding/pen/BaVJzoj">View Codepen</a>
+                                    </div>
+                                    <div>
+                                        <h4>RiffRaff Landing Page</h4>
+                                        <img src="/coursework/graphic/riffraffLanding.png">
+                                        <img src="/coursework/graphic/islandPost.svg">
+                                        <p>This was my first try at creating a landing page using illustrator. I tied into the themes of the games, including important landmarks as it would help tie the website and the game together.</p>
+                                        <a class="link" target="_blank" href="https://riff-raff-studios.netlify.app/">View Website</a>
+                                    </div>
+                                    <div>
+                                        <h4>Freelance Wireframe mockups</h4>
+                                        <img id="roomImg" src="/coursework/graphic/quilotoa.png">
+                                        <img id="roomImg" src="/coursework/graphic/wireframe.jpg">
+                                        <p>Creating wireframes is part of the development of a website. It is important to catch the clients vision and translate that into what will be the end product. Wireframes allows developers to see what the feel will be like, and allow for better judgement on colour aschemes, composition and copywriting. There is often many different mockups and wireframes are likely to change in the early stages.</p>
+                                    </div>
+                                </section>
+                                <br id="graphicWork">
+                                <br>
+                                <h3 class="modalUnderline">GRAPHIC DESIGN</h3>
+                                <section>
+                                    <div >
+                                        <h3>Posters / </h3>
+                                        <p></p>
+                                        <img src="/coursework/graphic/skull.png">
+                                        <img id="jojoImg" src="/coursework/graphic/siwa1.svg" alt="">
+                                        <img id="jojoImg" src="/coursework/graphic/siwa2.svg" alt="">
+                                    </div>
+                                    <div >
+                                        <h3>Designs</h3>
+                                        <img id="jojoImg" src="/coursework/graphic/siwaCharacter.jpg" alt="">
+                                        <img src="/coursework/graphic/SiwaPoster.jpg">
+                                    </div>
+                                    <div >
+                                        <h4>Photography / Editing</h4>
+                                        <img src="/coursework/graphic/P1050734.JPG">
+                                        <img src="/coursework/graphic/P1050736.JPG">
+                                        <!-- <img src="/coursework/graphic/P1050785.JPG"> -->
+                                    </div>
+                                    <div >
+                                        <img src="/coursework/graphic/P1050762.JPG">
+                                        <img src="/coursework/graphic/P1050786.JPG">
+                                        <p>Working on portrait photography and editing for a client. Additionally, learning how to work with lights and the effect it has on the editing stages and end product.</p>
+                                    </div>
+                                </section>
+                                <br id="mediaWork">
+                                <br>
+                                <h3 class="modalUnderline">MEDIA WORK</h3>
+                                <section>
+                                    <div id="media">
+                                        <h4>Beauty Queen Project</h4>
+                                        <img id="mediaImg" src="/coursework/graphic/mediaArtical.png">
+                                        <p>I enjoy being creative and working on different media forms such as: film, photography and editing. Here is a project I created for my coursework that allowed me to explore these interests. The intent was to create content that could market an artist to an audience.
+                                        In order to create this project I used my pre-existing photography and filming skills to create an article and music video for the artist Beauty Queen. This is where I put my photoshop and premier pro knowledge to use.</p>
+                                        <a class="link" href="/coursework/graphic/BeautyQueenarticle.pdf">Read the article</a>
+                                    </div>
+                                    <div>
+                                        <iframe width="100%" height="80%" src="https://www.youtube.com/embed/xUnQbjowGnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                </section>
+                          
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div id="uxModal" class="modal">
                     <div class="modal-content">
                         <span class="close">&times;</span>
                         <div class="layout">
                             <h2>User Experience</h2>
-                            <section>
-                                <h3>WHISKS AND THINGS</h3>
-                                <p>A little about my UX experience...I wrote my first analysis as part of a University exam where I analysed Whisk and Things's website. I created detailed personnas that this website may have been targetting, as well as, what their first impression would have been. As we know, the attention span of users is limited when it comes to websites and they make a decision whether to stay on a website or not in 5 seconds,this is important to understand when testing a websites usability.</p>
-                                <a target="_blank" class="link" href="/coursework/ux/whiskandthings.pdf">View Report</a>
-                                <a target="_blank" class="link" href="https://whiskandthings.co.uk/">Whisk and Things Page</a>
-                            </section>
-                            <section>
-                                <h3>UX REPORT</h3>
-                                <p>I wrote my first UX report for Alex De Corte, analysing their website based on usability heuristics and what improvements I would make. These are the ux design recommendations made with Adobe XD,  for their website. See the results:
-                                    <a class="demo" target="_blank" href="https://xd.adobe.com/view/eee7978c-8a58-4ed0-a6a2-bb35d86120cd-bbb4/">Pop-up design</a>, 
-                                    <a class="demo" target="_blank" href="https://xd.adobe.com/view/90bc0dc7-3d63-4d83-b2e6-2a2a15c281d5-c5ef/">Gallery</a>, 
-                                    <a class="demo" target="_blank" href="https://xd.adobe.com/view/063f7f3d-df30-4498-bf65-16342a6a6ba7-536c/">About</a>
-                                </p>
-                                <a class="link" target="_blank" href="/coursework/ux/user test report.pdf">View Report</a>
-                                <a class="link" target="_blank" href="http://alexdacorte.com/">Alex De Corte Page</a>
-                            </section>
-                            <section>
-                                <h3>PEARSONS PEACHPIT</h3>
-                                <p>I did a UX review on one of Pearson's child companies. I chose Peachpit because as a student, geting books from reliable sources is important, especially when it comes to writing academic essays. This is why I selected Peachpit. </p>
-                                <a class="link" target="_blank" href="/coursework/ux/peachpit.pdf">View Report</a>
-                                <a class="link" target="_blank" href="https://peachpit.com">View Peachpit Website</a>
-                                <a class="link" target="_blank" href="https://xd.adobe.com/view/391f1942-0043-493b-bc2d-bb9c3c047c70-6c4c/">View Recommendations</a>
-                            </section>
-                        </div>
-                    </div>
-                </div>
-                <div id="graphicModal" class="modal">
-                    <div class="modal-content">
-                        <span class="close">&times;</span>
-                        <div class="layout">
-                            <h2>Graphic Design Projects</h2>
                             <div class="container">
-                                <h3>WEB CONTENT</h3>
-                                    <section>
-                                        <div id="agirlcoding">
-                                            <h3>AGirlCoding Landing Page</h3>
-                                            <img id="roomImg" src="/coursework/graphic/room.svg">
-                                            <p>The reason I created this piece is because I wanted to represent what is important to me, not only as a developer but also the wider parts of my personal life. I wanted to create a playful but also profesional feel, which is the reason to the colour scheme.</p>
-                                        </div>
-                    
-                                    </section>
-                                    <div id="bubble">
-                                        <div id="noodles">
-                                            <h3>Noodle Animation</h3>
-                                            <img src="/coursework/graphic/noodle.jpg">
-                                            <p>This animation was made for a resturant, the requirements were: it had to be relevant to the business. For this animation, I used SASS, mixins and variables in order to make my code readable.</p>
-                                            <a class="link" target="_blank" href="https://codepen.io/agirlcoding/pen/BaVJzoj">View Codepen</a>
-                                        </div>
+                                <section >
+                                    <div>
+                                        <h3>WHISKS AND THINGS</h3>
+                                        <p>A little about my UX experience...I wrote my first analysis as part of a University exam where I analysed Whisk and Things's website. I created detailed personnas that this website may have been targetting, as well as, what their first impression would have been. As we know, the attention span of users is limited when it comes to websites and they make a decision whether to stay on a website or not in 5 seconds,this is important to understand when testing a websites usability.</p>
+                                        <a target="_blank" class="link" href="/coursework/ux/whiskandthings.pdf">View Report</a>
+                                        <a target="_blank" class="link" href="https://whiskandthings.co.uk/">Whisk and Things Page</a>
                                     </div>
-                                <h3>GRAPHIC DESIGN</h3>
-                                    <section>
-                                        <div id="jojo">
-                                            <h3>Jojo's Bizarre Adventure Posters</h3>
-                                            <img id="jojoImg" src="/coursework/graphic/siwa.svg" alt="">
-                                            <p>I created fanart of Jojo's Bizzare adventure. I love the artstyle they have and wanted to do a charcter I love but in my own style. Working with the colours were a struggle, however, learning about colour theory allowed me to end up woth a decent colour palette.</p>
-                                        </div>
-                                        <div id="redGirl">
-                                            <h3>The Girl In Red</h3>
-                                            <img src="/coursework/graphic/jojo.png">
-                                            <p>This is work which I was experimenting on. I mainly wanted to play with colour and line work using photoshop.</p>
-                                        </div>
-                                    </section>
-                                <h3>MEDIA WORK</h3>
-                                    <section>
-                                        <div id="media">
-                                            <img id="mediaImg" src="/coursework/graphic/mediaArtical.png">
-                                            <p>I enjoy being creative and working on different media forms, here is a project I created for my coursework. The intent was to create content that could market an artist to an audience.
-                                            In order to create this project I used my photography and filming skills to create an article and music video for the artist Beauty Queen. This is where I put my photoshop and Adobe premier pro knowledge to use.</p>
-                                            <a class="link" target="_blank" href="https://www.youtube.com/watch?v=xUnQbjowGnY">View youtube video</a>
-                                        </div>
-                                    </section>
+                                    <div>
+                                        <h3>UX REPORT</h3>
+                                        <p>I wrote my first UX report for Alex De Corte, analysing their website based on usability heuristics and what improvements I would make. These are the ux design recommendations made with Adobe XD,  for their website. See the results:
+                                            <a class="demo" target="_blank" href="https://xd.adobe.com/view/eee7978c-8a58-4ed0-a6a2-bb35d86120cd-bbb4/">Pop-up design</a>, 
+                                            <a class="demo" target="_blank" href="https://xd.adobe.com/view/90bc0dc7-3d63-4d83-b2e6-2a2a15c281d5-c5ef/">Gallery</a>, 
+                                            <a class="demo" target="_blank" href="https://xd.adobe.com/view/063f7f3d-df30-4498-bf65-16342a6a6ba7-536c/">About</a>
+                                        </p>
+                                        <a class="link" target="_blank" href="/coursework/ux/user test report.pdf">View Report</a>
+                                        <a class="link" target="_blank" href="http://alexdacorte.com/">Alex De Corte Page</a>
+                                    </div>
+                                    <div>
+                                        <h3>UX REPORT</h3>
+                                        <p>I wrote my first UX report for Alex De Corte, analysing their website based on usability heuristics and what improvements I would make. These are the ux design recommendations made with Adobe XD,  for their website. See the results:
+                                            <a class="demo" target="_blank" href="https://xd.adobe.com/view/eee7978c-8a58-4ed0-a6a2-bb35d86120cd-bbb4/">Pop-up design</a>, 
+                                            <a class="demo" target="_blank" href="https://xd.adobe.com/view/90bc0dc7-3d63-4d83-b2e6-2a2a15c281d5-c5ef/">Gallery</a>, 
+                                            <a class="demo" target="_blank" href="https://xd.adobe.com/view/063f7f3d-df30-4498-bf65-16342a6a6ba7-536c/">About</a>
+                                        </p>
+                                        <a class="link" target="_blank" href="/coursework/ux/user test report.pdf">View Report</a>
+                                        <a class="link" target="_blank" href="http://alexdacorte.com/">Alex De Corte Page</a>
+                                    </div>
+                                    <div>
+                                        <h3>PEARSONS PEACHPIT</h3>
+                                        <p>I did a UX review on one of Pearson's child companies. I chose Peachpit because as a student, geting books from reliable sources is important, especially when it comes to writing academic essays. This is why I selected Peachpit. </p>
+                                        <a class="link" target="_blank" href="/coursework/ux/peachpit.pdf">View Report</a>
+                                        <a class="link" target="_blank" href="https://peachpit.com">View Website</a>
+                                        <a class="link" target="_blank" href="https://xd.adobe.com/view/391f1942-0043-493b-bc2d-bb9c3c047c70-6c4c/">View Changes</a>
+                                    </div>
+                                </section>
+
                             </div>
                         </div>
                     </div>
@@ -191,33 +296,38 @@
                     <div class="modal-content">
                             <span class="close">&times;</span>
                             <div class="layout">
-                            <h2 id="reportTitle">ARTICLES</h2>
-                            <article>
-                                <h3>Does the lack of Accessibility design in web development impact businesses negatively?</h3>
-                                <date>19th of August 2022</date>
-                                <p>This paper was written as part of my dissertaion submission alongside the practical component. It goes into depth about the legal, financial and development aspect of accessibility in E-commerce.</p>
-                                <a class="link" target="_blank" href="/coursework/other/dissertation.pdf">Read this article</a>
-                            </article>
-                            <article>
-                                <h3>Will Neuralink broaden accessibility to technology for the disabled community? </h3>
-                                <date>25th of March 2022</date>
-                                <p>This article required a lot of research on Neuralink and its impact on accessability and modern technology.</p>
-                                <a class="link" target="_blank" href="/coursework/other/Neuralink.pdf">Read this article</a>
-                            </article>
-                            <article>
-                                <h3>The Digitisation of all human knowledge</h3>
-                                <date>4th of Decemeber 2020</date>
-                                <p>This article is about how humankind has evolved the way we preserve our history and how technology may impact and shape the course of culture.</p>
-                                <a class="link" target="_blank" href="/coursework/other/The gradual digitisation of knowledge.pdf" >Read this article</a>
-                            </article>
-                            <article>
-                                <h3>Do dreams reflect reality?</h3>
-                                <date>18th of October 2020</date>
-                                <p>In this article, I analyse how technology may be useful in psychology, more specifically, theoretical psychology. Potentially becoming the source in which all ethical issues become eliminated.</p>
-                                <a class="link" target="_blank" href="/coursework/other/Do dreams reflect reality.pdf">Read this article</a>
-                            </article>
-                            <p><i>If any of these articles interest you, tell me what you think via my <a href="mailto:nataly.angulo530@gmail.com?subject=Let's talk about the articles">email</a></i></p>
-                        </div>
+                                <h2 id="reportTitle">ARTICLES</h2>
+                                <div class="container">
+                                    <section>
+                                        <div>
+                                            <h3>Does the lack of Accessibility design in web development impact businesses negatively?</h3>
+                                            <date>19th of August 2022</date>
+                                            <p>This paper was written as part of my dissertaion submission alongside the practical component. It goes into depth about the legal, financial and development aspect of accessibility in E-commerce.</p>
+                                            <a class="link" target="_blank" href="/coursework/other/dissertation.pdf">Read this article</a>
+                                        </div>
+                                        <div>
+                                            <h3>Will Neuralink broaden accessibility to technology for the disabled community? </h3>
+                                            <date>25th of March 2022</date>
+                                            <p>This article required a lot of research on Neuralink and its impact on accessability and modern technology.</p>
+                                            <a class="link" target="_blank" href="/coursework/other/Neuralink.pdf">Read this article</a>
+                                        </div>
+                                        <div>
+                                            <h3>The Digitisation of all human knowledge</h3>
+                                            <date>4th of Decemeber 2020</date>
+                                            <p>This article is about how humankind has evolved the way we preserve our history and how technology may impact and shape the course of culture.</p>
+                                            <a class="link" target="_blank" href="/coursework/other/The gradual digitisation of knowledge.pdf" >Read this article</a>
+                                        </div>
+                                        <div>
+                                            <h3>Do dreams reflect reality?</h3>
+                                            <date>18th of October 2020</date>
+                                            <p>In this article, I analyse how technology may be useful in psychology, more specifically, theoretical psychology. Potentially becoming the source in which all ethical issues become eliminated.</p>
+                                            <a class="link" target="_blank" href="/coursework/other/Do dreams reflect reality.pdf">Read this article</a>
+                                        </div>
+                                    </section>
+                                    <br>
+                                    <p><i>If any of these articles interest you, tell me what you think via my <a href="mailto:nataly.angulo530@gmail.com?subject=Let's talk about the articles">email</a></i></p>
+                                </div>
+                            </div>
                     </div>
                 </div>
         </section>
@@ -237,7 +347,7 @@
         <img src="/coursework/icons/codepen.png" alt="">
         <h3>CodePen</h3>
     </a>
-    <a target="_blank" href= "https://www.linkedin.com/in/nataly-angulo-370489236/" class="layout">
+    <a target="_blank" href= "https://www.linkedin.com/in/nataly-angulo-a4b359184/" class="layout">
         <img src="/coursework/icons/linkedin.png" alt="">
         <h3>LinkedIn</h3>
     </a>
